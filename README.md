@@ -10,6 +10,7 @@ every change to our code is ready for release as soon as possible
 In this project, I  build a Github repository from scratch and create a scaffolding that  assist  in performing both CI and CD. I use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, I integrate this project with [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) to enable Continuous Delivery to [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
 ## Project Plan
 I've included a quarterly and yearly plan in this [spreadsheet](https://docs.google.com/spreadsheets/d/1mVYLtcZ6-ncupYgM3m-HbbmeYRWQXq58leF58VNuDiM/edit#gid=0). There is also an estimated week by week deliverables with a time of difficulty for each task.
+## Trello Board
+Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops) 
 ## Architectural Diagram
 ![alt text](Diagram/Architecture.png)
-
