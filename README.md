@@ -16,4 +16,9 @@ Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops)
 ![alt text](Diagram/Architecture.png)
 ## CI: Set Up Azure Cloud Shell
    * Create a [Github](https://github.com/) repository
-   * Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account.
+   * Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account
+   
+ ![alt text](Images/ssk-keygen.png)
+ ![alt text](Images/cloud-shell-gitclone.png)
+   
+   
