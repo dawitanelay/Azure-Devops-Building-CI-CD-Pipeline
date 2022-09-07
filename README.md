@@ -53,7 +53,46 @@ scikit-learn==0.20.3
 jinja2==3.0
 locust
 ```
- 
- 
+### Create the Python Virtual Environment
+```
+python3 -m venv ~/.myrepo
+source ~/.myrepo/bin/activate
+```
+ ### Create the script file and test file.
+
+The next step is to create the script file and test file. This is a boilerplate code to get the initial continuous integration process working. It will later be replaced by the real application code.
+
+First, you will need to create [hello.py](http://hello.py/) with the following code at the top level of your Github repo:
+
+```python
+def toyou(x):
+    return "hi %s" % x
+
+def add(x):
+    return x + 1
+
+def subtract(x):
+    return x - 1
+```
+
+Next, you will need to create test_hello.py with the following code at the top level of your Github repo:
+
+```python
+from hello import toyou, add, subtract
+
+def setup_function(function):
+    print("Running Setup: %s" % function.__name__)
+    function.x = 10
+
+def teardown_function(function):
+    print("Running Teardown: %s" % function.__name__)
+    del function.x
+
+### Run to see failed test
+#def test_hello_add():
+#    assert add(test_hello_add.x) == 12
+
+def test_hello_subtract():
+    assert subtract(test_hello_subtract.x) == 9
    
    
