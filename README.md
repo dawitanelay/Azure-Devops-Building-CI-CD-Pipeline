@@ -24,7 +24,30 @@ Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops)
  * type  ` cat /home/odl_user/.ssh/id_ed25519.pub ` 
  * Copy the generated public key and go to GitHub. Click the settings and paste the key.
   ![alt text](Images/github-ssh.png)
-  
+  ## Create Project Scaffolding
+  Now that the environment is ready, we can build the scaffolding for our project and test our code.
+  ### Create the Makefile
+ ```makefile
+install:
+    pip install --upgrade pip &&\
+        pip install -r requirements.txt
+
+test:
+    python -m pytest -vv test_hello.py
+
+lint:
+    pylint --disable=R,C hello.py
+
+all: install lint test
+```
+  ### Create requirements.txt
+
+Create a file named requirements.txt. A requirements.txt is a convenient way to list what packages a project needs. 
+
+```
+pylint
+pytest
+```
  
  
    
