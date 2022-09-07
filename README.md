@@ -14,3 +14,6 @@ I've included a quarterly and yearly plan in this [spreadsheet](https://docs.goo
 Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops) 
 ## Architectural Diagram
 ![alt text](Diagram/Architecture.png)
+## CI: Set Up Azure Cloud Shell
+   * Create a [Github](https://github.com/) repository
+   * Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account.
