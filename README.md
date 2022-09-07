@@ -21,6 +21,11 @@ Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops)
  ![alt text](Images/ssk-keygen.png)
   
  ![alt text](Images/cloud-shell-gitclone.png)
+ * type  ` cat /home/odl_user/.ssh/id_ed25519.pub ` 
+ * Copy the generated public key and go to GitHub. Click the settings and paste the key.
+  ![alt text](Images/github-ssh.png)
+  
+ 
  
    
    
