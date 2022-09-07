@@ -57,8 +57,8 @@ locust
 ```
 ### Create the Python Virtual Environment
 ```
-python3 -m venv ~/.myrepo
-source ~/.myrepo/bin/activate
+python3 -m venv ~/.Azure-pipline
+source ~/.Azure-pipline/bin/activate
 ```
  ### Create the script file and test file.
 
