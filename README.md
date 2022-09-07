@@ -19,6 +19,8 @@ Project management [Trello Board](https://trello.com/b/OIFZz5HW/azure-devops)
    * Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your GitHub account
    
  ![alt text](Images/ssk-keygen.png)
+  
  ![alt text](Images/cloud-shell-gitclone.png)
+ 
    
    
