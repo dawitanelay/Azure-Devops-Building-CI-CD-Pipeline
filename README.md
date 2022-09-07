@@ -49,7 +49,7 @@ Create a file named requirements.txt. A requirements.txt is a convenient way to 
 ```
 Flask==2.0.3
 pandas
-scikit-learn==0.20.3
+scikit-learn
 pylint
 pytest
 joblib
