@@ -47,12 +47,12 @@ all: install lint test
 Create a file named requirements.txt. A requirements.txt is a convenient way to list what packages a project needs. 
 
 ```
+Flask==2.0.3
+pandas
+scikit-learn==0.20.3
 pylint
 pytest
-Flask==2.0.3
-pandas==0.24.2
-scikit-learn==0.20.3
-jinja2==3.0
+joblib
 locust
 ```
 ### Create the Python Virtual Environment
