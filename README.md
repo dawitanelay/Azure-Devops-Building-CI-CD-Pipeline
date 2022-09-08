@@ -149,3 +149,5 @@ az webapp up --name <Your_unique_app_name> --resource-group Azuredevops
 
 Open the URL containing the webapp name provided in the previous step to see if the app is active and workings:
 *![CI](./Images/webapp-run.png)
+
+Edit file 'make_predict_azure_app.sh' and replace '< yourappname >' with your webapp name
