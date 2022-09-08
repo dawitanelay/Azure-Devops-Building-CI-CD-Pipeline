@@ -101,3 +101,10 @@ def test_hello_subtract():
 Now it is time to run make all which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
 
 ![make all](./Images/test-pass.png)
+Run Python web application and you will see Sklearn Prediction Home in your browser
+
+```python
+Python app.py
+```
+![run app](./Images/python-app.png)
+![http](./Images/http-reult.png)
