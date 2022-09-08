@@ -144,3 +144,10 @@ Similar to our localhost, Azure App Service is hosted in Azure.  We don't need 
 ```
 az webapp up --name <Your_unique_app_name> --resource-group Azuredevops
 ```
+* command outpu 
+![CI](./Images/az-webapp.png)
+
+Open the URL containing the webapp name provided in the previous step to see if the app is active and workings:
+*![CI](./Images/webapp-run.png)
+
+Edit file 'make_predict_azure_app.sh' and replace '< yourappname >' with your webapp name
