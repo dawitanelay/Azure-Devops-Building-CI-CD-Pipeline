@@ -108,3 +108,4 @@ Python app.py
 ```
 ![run app](./Images/python-app.png)
 ![http](./Images/http-reult.png)
+## CI: Configure GitHub Actions
