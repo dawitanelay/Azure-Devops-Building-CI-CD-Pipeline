@@ -151,5 +151,5 @@ Open the URL containing the webapp name provided in the previous step to see if 
 *![CI](./Images/webapp-run.png)
 
 Edit file `make_predict_azure_app.sh` and replace `<yourappname>` with your webapp name
-
+* Successful prediction
 ![prediction](./Images/make_prediction.png)
