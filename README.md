@@ -142,5 +142,5 @@ jobs:
 ### Create Azure App Service
 Similar to our localhost, Azure App Service is hosted in Azure.  We don't need to set up and maintain the virtual machines because the Azure APP service is PaaS. Use Azure Cloud Shell and run the command 
 ```
-az webapp up -n flaskml
+az webapp up --name <Your_unique_app_name> --resource-group Azuredevops
 ```
