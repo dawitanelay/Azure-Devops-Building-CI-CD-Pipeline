@@ -152,4 +152,5 @@ Open the URL containing the webapp name provided in the previous step to see if 
 
 Edit file `make_predict_azure_app.sh` and replace `<yourappname>` with your webapp name
 * Successful prediction
-![prediction](./Images/make_prediction.png)
+![prediction](./Images/make_prediction.png
+## Continuous Deployment with Azure Pipelines
