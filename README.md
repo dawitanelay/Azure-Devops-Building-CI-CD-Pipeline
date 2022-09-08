@@ -138,3 +138,4 @@ jobs:
 ```
 * Successful Github Action build Result
 ![CI](./Images/CI-github-action.png)
+## Continuous Delivery on Azure
