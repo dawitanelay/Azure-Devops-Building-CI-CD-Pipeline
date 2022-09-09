@@ -1,3 +1,4 @@
+[![Python application test with Github Actions](https://github.com/dawitanelay/Azure-Devops-Building-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)](https://github.com/dawitanelay/Azure-Devops-Building-CI-CD-Pipeline/actions/workflows/main.yml)
 # Azure-Devops-Building-CI-CD-Pipeline
 
 
