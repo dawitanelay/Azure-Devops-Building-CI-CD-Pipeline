@@ -171,3 +171,10 @@ https://flaskml-app.azurewebsites.net/
 * You will see Sklearn Prediction Home(Continuous Delivery) in your browser
 
 ![cd](./Images/cd-change.png)
+## Enable GitHub and Azure Pipelines
+We want to ensure that when we make any changes to our GitHub repository, the Azure Pipelines will be activated since we have already set up the Azure Pipelines and deployed the Flask ML application on Azure. The applications will automatically deploy to Azure App Service while the pipelines are running.
+
+I changed the title of my web application. When I commit the changes to GitHub, the Azure Pipleines are triggered, and my new changes are deployed to the App Service.
+```
+html = "<h3>Sklearn Prediction Home(Continuous Delivery )</h3>"
+```
