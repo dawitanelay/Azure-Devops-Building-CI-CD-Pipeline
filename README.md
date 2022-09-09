@@ -181,6 +181,11 @@ html = "<h3>Sklearn Prediction Home(Continuous Delivery )</h3>"
 ```
 When I make changes to my branch, I tell the Azure Pipeline to deploy the web applications. as follow 
 *![CI](./Images/Triggers.png)
+## Logs
+```
+az webapp log tail
+```
+
 ## Enhancements
 * Containerize the app using  docker
 * Use k8s for managing containerized workloads and services
