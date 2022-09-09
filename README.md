@@ -178,3 +178,5 @@ I changed the title of my web application. When I commit the changes to GitHub, 
 ```
 html = "<h3>Sklearn Prediction Home(Continuous Delivery )</h3>"
 ```
+When I make changes to my branch, I tell the Azure Pipeline to deploy the web applications. as follow 
+*![CI](./Images/Triggers.png)
