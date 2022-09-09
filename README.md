@@ -185,7 +185,7 @@ When I make changes to my branch, I tell the Azure Pipeline to deploy the web ap
 ```
 az webapp log tail
 ```
-*![CI](./Images/webapp-log)
+*![CI](./Images/webapp-log.png)
 ## Enhancements
 * Containerize the app using  docker
 * Use k8s for managing containerized workloads and services
