@@ -164,5 +164,10 @@ else
 
 After that, the Flask ML Web Application is deployed successful with Azure Pipelines.
 ![cd](./Images/depoly-webapp.png)
+Browse
+```
+https://flaskml-app.azurewebsites.net/
+```
+* You will see Sklearn Prediction Home(Continuous Delivery) in your browser
 
-
+![cd](./Images/cd-change.png)
