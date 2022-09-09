@@ -159,6 +159,7 @@ We want to deploy our flask ML web application using Azure pipelines. To do this
 if you wish to use  self-hosted Azure pipeline agent (a new Linux VM) that will build and deploy the code. Here are the steps to create an Azure pipeline agent. Here is the tutorial you can follow along. [Azure pipeline agent](https://github.com/dawitanelay/Azure-Devops-Building-CI-CD-Pipeline/blob/aa7ac4b8b6053b2aa1bf9788b6945877473d85b7/Azure%20Pipeline%20Agent.pdf) 
 else 
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)
-
+After that, the Flask ML Web Application is deployed successful with Azure Pipelines.
+![cd](./Images/depoly-webapp.png)
 
 
