@@ -56,6 +56,8 @@ pytest
 joblib
 locust
 ```
+![load-test](./Images/local-test.png)
+
 ### Create the Python Virtual Environment
 ```
 python3 -m venv ~/.Azure-pipline
@@ -99,6 +101,7 @@ def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
  ```  
  ## Local Test  
+
 Now it is time to run make all which will install, lint, and test code. This enables us to ensure we don't check in broken code to GitHub as it installs, lints, and tests the code in one command. Later we will have a remote build server perform the same step.
 
 ![make all](./Images/test-pass.png)
@@ -151,6 +154,11 @@ az webapp up --name <Your_unique_app_name> --resource-group Azuredevops
 Edit file `make_predict_azure_app.sh` and replace `<yourappname>` with your webapp name
 * Successful prediction
 ![prediction](./Images/make_prediction.png)
+
+### Load Test
+ Run ``` locust``` 
+ 
+ ![run locust](./Images/load-test.png)
 ## Continuous Deployment with Azure Pipelines
 We want to deploy our flask ML web application using Azure pipelines. To do this, we must first establish a service connection for Azure App Service and Azure Pipelines, and then create an Azure DevOps Project.
 
