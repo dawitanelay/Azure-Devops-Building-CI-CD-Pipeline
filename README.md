@@ -190,3 +190,4 @@ az webapp log tail
 * Containerize the app using  docker
 * Use k8s for managing containerized workloads and services
 ## Demo
+https://www.youtube.com/watch?v=mvTztG6eduY
