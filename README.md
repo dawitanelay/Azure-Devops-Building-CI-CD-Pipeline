@@ -56,6 +56,8 @@ pytest
 joblib
 locust
 ```
+![load-test](./Images/local-test.png)
+
 ### Create the Python Virtual Environment
 ```
 python3 -m venv ~/.Azure-pipline
