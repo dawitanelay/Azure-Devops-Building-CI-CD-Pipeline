@@ -169,7 +169,7 @@ else
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)
 
 After that, the Flask ML Web Application is deployed successful with Azure Pipelines.
-![cd](./Images/depoly-webapp.png)
+![cd](./Images/cd-deployment.png)
 Browse
 ```
 https://flaskml-app.azurewebsites.net/
