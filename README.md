@@ -158,7 +158,7 @@ Edit file `make_predict_azure_app.sh` and replace `<yourappname>` with your weba
 ### Load Test
  Run ``` locust``` 
  
- ![run locust](./Images/load-test.png)
+ ![run locust](./Images/locustUpdate.png)
 ## Continuous Deployment with Azure Pipelines
 We want to deploy our flask ML web application using Azure pipelines. To do this, we must first establish a service connection for Azure App Service and Azure Pipelines, and then create an Azure DevOps Project.
 
