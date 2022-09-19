@@ -169,14 +169,15 @@ else
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl)
 
 After that, the Flask ML Web Application is deployed successful with Azure Pipelines.
-![cd](./Images/depoly-webapp.png)
+![cd](./Images/cd-deployment.png)
 Browse
 ```
 https://flaskml-app.azurewebsites.net/
 ```
 * You will see Sklearn Prediction Home(Continuous Delivery) in your browser
 
-![cd](./Images/cd-change.png)
+![cd](./Images/flaskml.png)
+dawit
 ## Enable GitHub and Azure Pipelines
 We want to ensure that when we make any changes to our GitHub repository, the Azure Pipelines will be activated since we have already set up the Azure Pipelines and deployed the Flask ML application on Azure. The applications will automatically deploy to Azure App Service while the pipelines are running.
 
